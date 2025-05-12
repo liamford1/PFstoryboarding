@@ -1,0 +1,993 @@
+[
+  {
+    "scene_label": "1:The Silence Before the Strike",
+    "scene_timing": "Opening scene — sets the mood and brand tone.",
+    "content_description": "A dimly lit fishing lodge interior just before dawn. A premium PENN spinning reel rests atop a wooden display pedestal.",
+    "visual_tags": {
+      "lighting": "chiaroscuro, dramatic, soft amber glow, high contrast",
+      "color_palette": "deep blacks, soft amber highlights",
+      "camera_angle": "close-up, eye-level",
+      "depth_of_field": "shallow",
+      "mood": "moody, cinematic, calm anticipation",
+      "motion": "still",
+      "style": "luxury product ad, cinematic, realistic"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "2:Engineered for the Unknown",
+    "scene_timing": "Opening scene (sequential continuation from previous frame)",
+    "content_description": "A matte-black display pedestal in darkness with a PENN reel emerging from shadows, barely illuminated by subtle amber underglow.",
+    "visual_tags": {
+      "lighting": "low-light, warm underglow, heavy contrast",
+      "color_palette": "warm amber, deep shadows, minimal tones",
+      "camera_angle": "tight frame, product-focused",
+      "depth_of_field": "shallow",
+      "mood": "suspenseful, quiet, reverent",
+      "motion": "none",
+      "style": "cinematic, luxury product shot"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "3:Forged in the Elements",
+    "scene_timing": "Opening sequence, transitional moment — tension builds",
+    "content_description": "Close-up of a premium reel on a glowing pedestal surrounded by warm smoke. Metallic details catch ambient light in a blacked-out room.",
+    "visual_tags": {
+      "lighting": "directional, spotlight-through-fog, warm-toned",
+      "color_palette": "amber, black, brushed metallic",
+      "camera_angle": "close-up, straight-on",
+      "depth_of_field": "shallow",
+      "mood": "serious, intense, reverent",
+      "motion": "slow swirling smoke",
+      "style": "cinematic, minimal, golden hour-inspired"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "4:Reset Before Impact",
+    "scene_timing": "Transitional pause — calm between cinematic reveals",
+    "content_description": "A silhouetted PENN reel on a softly glowing pedestal. The form is mostly in darkness with slight glints of metal detail.",
+    "visual_tags": {
+      "lighting": "extremely low-key, warm glow, shadow-focused",
+      "color_palette": "black, golden undertone",
+      "camera_angle": "close-up, silhouette emphasis",
+      "depth_of_field": "shallow",
+      "mood": "suspenseful, restrained, calm",
+      "motion": "none",
+      "style": "minimalist, cinematic, dramatic"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "5:Precision in the Making",
+    "scene_timing": "Mid-action beat — visual crescendo begins",
+    "content_description": "Fully revealed PENN reel on glowing pedestal surrounded by swirling golden smoke, highlighting polished and ergonomic features.",
+    "visual_tags": {
+      "lighting": "warm, directional, diffused through smoke",
+      "color_palette": "amber, gold, black",
+      "camera_angle": "close-up, upward emphasis",
+      "depth_of_field": "shallow",
+      "mood": "reverent, powerful, forged",
+      "motion": "slow swirling smoke, implied emergence",
+      "style": "cinematic, premium, molten aesthetic"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "6:Into the Deep",
+    "scene_timing": "Closing frame — transition to nature, metaphor for readiness",
+    "content_description": "An underwater close-up of turbulent, churning water — bubbles and currents swirl in slow motion. No objects or subjects are visible — just the raw energy of water in motion.",
+    "visual_tags": {
+      "lighting": "diffuse, ambient, natural light from surface",
+      "color_palette": "deep blue-gray, silvery gradients",
+      "camera_angle": "underwater close-up",
+      "depth_of_field": "rich texture, moderate depth",
+      "mood": "moody, immersive, tense anticipation",
+      "motion": "slow-motion swirling water, bubbles, current",
+      "style": "documentary realism, cinematic softness, high-performance tone"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "7:Eyes on the Water",
+    "scene_timing": "Mid-story beat — human connection and anticipation",
+    "content_description": "Extreme close-up of a fisherwoman's face looking upward in thought. Blue eyes reflect daylight, a teal cap casts shadow over her brow. Background is blurred forest colors.",
+    "visual_tags": {
+      "lighting": "natural, diffuse, soft daylight",
+      "color_palette": "skin tones, teal, forest green, blue eyes",
+      "camera_angle": "extreme close-up, asymmetrical crop",
+      "depth_of_field": "shallow, blurred background",
+      "mood": "calm, focused, authentic",
+      "motion": "none",
+      "style": "raw realism, outdoor portraiture, immersive crop"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "8:Against the Surge",
+    "scene_timing": "Climactic action beat — nature’s power unveiled",
+    "content_description": "Wide shot of a massive ocean wave crashing into a jagged rock face. Mist and sea spray suspended mid-air. Stark contrast between steel-blue water and dark rocks.",
+    "visual_tags": {
+      "lighting": "natural, overcast, stormy tone",
+      "color_palette": "steel-blue, aquamarine, white foam, dark gray rock",
+      "camera_angle": "wide shot, eye-level",
+      "depth_of_field": "deep, high shutter clarity",
+      "mood": "raw, intense, chaotic",
+      "motion": "violent wave impact, suspended spray",
+      "style": "cinematic outdoor, desaturated palette, freeze-frame action"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "9:Relentless Waters",
+    "scene_timing": "Climactic continuation — height of natural intensity",
+    "content_description": "Cinematic wide frame of a colossal wave at peak impact with a cliffside. Layers of white foam, teal swells, and fine mist midair emphasize the untamed force.",
+    "visual_tags": {
+      "lighting": "natural, dramatic, overcast sky",
+      "color_palette": "teal-blue, white spray, dark rock",
+      "camera_angle": "wide-angle, cinematic",
+      "depth_of_field": "deep, sharp texture detail",
+      "mood": "visceral, powerful, wild",
+      "motion": "exploding wave, layered fluid motion",
+      "style": "high contrast realism, cinematic action, nature-focused"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "10:The Target Emerges",
+    "scene_timing": "Final setup — prey revealed, tension builds",
+    "content_description": "Underwater wide shot of a dense bait ball — thousands of silver fish swirling in a vortex. Light filters from above, casting soft dapples on the school.",
+    "visual_tags": {
+      "lighting": "natural filtered light, soft dappled",
+      "color_palette": "silver fish, blue shadows, ocean gradient",
+      "camera_angle": "underwater wide shot, centered vortex",
+      "depth_of_field": "high visibility in center, soft fade to edges",
+      "mood": "calm, tense, natural build-up",
+      "motion": "synchronized fish vortex",
+      "style": "high-definition realism, cinematic ocean documentary"
+    },
+    "characters": "none"
+  },  
+  {
+    "scene_label": "11:Locked In",
+    "scene_timing": "Final tension beat — precision before the strike",
+    "content_description": "Underwater wide shot of a tightly packed bait ball, rotating in place with mechanical precision. Glimmering fish catch specks of light while suspended in dark blue water.",
+    "visual_tags": {
+      "lighting": "natural, cool, subtle vignetting",
+      "color_palette": "dark blue, silver shimmer, faint bioluminescence",
+      "camera_angle": "underwater wide shot, closer perspective",
+      "depth_of_field": "shallow around edges, focused in center",
+      "mood": "tense, quiet, focused",
+      "motion": "rotational, hypnotic flow",
+      "style": "cinematic realism, metaphorical stillness"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "12:The Strike is Imminent",
+    "scene_timing": "Final build-up — moments before the climax",
+    "content_description": "Underwater wide shot of the bait ball from a different angle, now more agitated and stretched. Fish shimmer in tight formation as tension builds in the deep ocean.",
+    "visual_tags": {
+      "lighting": "soft ambient light from above",
+      "color_palette": "silver fish, muted blue ocean tones",
+      "camera_angle": "angled underwater wide shot",
+      "depth_of_field": "immense depth, isolated subject",
+      "mood": "tense, expectant, focused",
+      "motion": "coordinated fish swirl, slight agitation",
+      "style": "high-fidelity, cinematic, immersive"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "13:The Heart of the Hunt",
+    "scene_timing": "Final frame — hero product reveal and brand signature",
+    "content_description": "Macro close-up of the PENN Authority spinning reel in darkness, lit by a soft shaft of blue-green light highlighting gold and anodized black metal details.",
+    "visual_tags": {
+      "lighting": "controlled shaft of soft blue-green light, high contrast",
+      "color_palette": "black anodized, gold insets, steel gray",
+      "camera_angle": "macro close-up, diagonal composition",
+      "depth_of_field": "shallow",
+      "mood": "bold, technical, reverent",
+      "motion": "none",
+      "style": "dark luxury advertising, cinematic product hero"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "14:Built for the Chase",
+    "scene_timing": "Action beat — transition to pursuit and adventure",
+    "content_description": "Wide shot of a sportfishing boat cutting through dark water under a gray sky. Motion blur and spray emphasize speed. Two silhouetted figures are visible at the helm.",
+    "visual_tags": {
+      "lighting": "diffused, overcast, cool-toned",
+      "color_palette": "gray clouds, dark ocean, white wake",
+      "camera_angle": "low angle wide shot, tilted horizon",
+      "depth_of_field": "moderate, emphasis on movement",
+      "mood": "gritty, adventurous, purposeful",
+      "motion": "fast movement, spray, motion blur",
+      "style": "cinematic realism, offshore action"
+    },
+    "characters": "two figures, silhouetted"
+  },
+  {
+    "scene_label": "15:Nature’s Signal",
+    "scene_timing": "Transitional cue — foreshadowing action below",
+    "content_description": "Wide ocean shot with seabirds circling and diving above restless waters. One large bird in the foreground blurs with motion, signaling predator activity.",
+    "visual_tags": {
+      "lighting": "flat, natural, overcast",
+      "color_palette": "slate-gray ocean, misty sky, muted tones",
+      "camera_angle": "wide shot, foreground emphasis",
+      "depth_of_field": "shallow foreground, deep background mist",
+      "mood": "tense, alert, naturalistic",
+      "motion": "circling and diving birds, motion blur in foreground",
+      "style": "documentary realism, transitional cue"
+    },
+    "characters": "seabirds (foreground and background)"
+  },
+  {
+    "scene_label": "16:Ready in Hand",
+    "scene_timing": "Final setup shot — before the cast",
+    "content_description": "Medium close-up of a PENN Authority spinning reel mounted on a rod, secured to a boat railing with calm ocean and forested island in the background. The gear is framed as sturdy and trusted.",
+    "visual_tags": {
+      "lighting": "soft, natural, overcast",
+      "color_palette": "black and gold reel, cool blue-gray sea, green island",
+      "camera_angle": "medium close-up, gear-focused",
+      "depth_of_field": "shallow (sharp on reel and rod, blurred background)",
+      "mood": "serious, focused, anticipatory",
+      "motion": "still",
+      "style": "cinematic realism, product-centric"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "17:The Captain’s Instinct",
+    "scene_timing": "Final human moment before action — decision point",
+    "content_description": "Close-up of a seasoned angler turning sharply aboard a boat, expression alert and serious. His motion blur suggests he’s reacting to a cue in the water.",
+    "visual_tags": {
+      "lighting": "natural, diffused, overcast",
+      "color_palette": "navy blue, gray, sea tones",
+      "camera_angle": "close-up, human focus with dynamic blur",
+      "depth_of_field": "shallow (sharp on face, blurred background)",
+      "mood": "alert, wise, urgent",
+      "motion": "head turn with motion blur",
+      "style": "humanistic, reactive, cinematic documentary"
+    },
+    "characters": "angler/captain"
+  },
+  {
+    "scene_label": "18:Untamed Waters",
+    "scene_timing": "Establishing finale or reflective close — anchoring place and spirit",
+    "content_description": "Aerial wide shot of wild tropical coastline where steep green cliffs meet clear ocean. Seabirds glide through the frame. A sweeping, majestic shot showing nature’s beauty.",
+    "visual_tags": {
+      "lighting": "natural, slightly diffused",
+      "color_palette": "rich green foliage, turquoise ocean, light sky",
+      "camera_angle": "aerial wide shot",
+      "depth_of_field": "deep",
+      "mood": "fresh, raw, expansive",
+      "motion": "gliding birds, gentle waves",
+      "style": "majestic cinematic, nature-centric, bookend-worthy"
+    },
+    "characters": "seabirds"
+  },
+  {
+    "scene_label": "19:Fish With Power",
+    "scene_timing": "Final payoff — brand message and emotional resolution",
+    "content_description": "Low-angle close-up of an angler gripping a PENN reel mid-cast under a moody sky. Rod is flexed with tension. Bold overlay text reads 'FISH WITH POWER'.",
+    "visual_tags": {
+      "lighting": "natural, directional, dramatic",
+      "color_palette": "black and gold reel, overcast sky, ocean gray",
+      "camera_angle": "low angle, close-up",
+      "depth_of_field": "shallow (sharp on reel and hand)",
+      "mood": "commanding, inspirational, powerful",
+      "motion": "dynamic casting pose",
+      "style": "cinematic action, branded overlay, high-impact"
+    },
+    "characters": "angler (hand visible)"
+  },
+  {
+    "scene_label": "20:Hooked",
+    "scene_timing": "Final action beat — payoff moment beneath the surface",
+    "content_description": "Underwater close-up of a large fish hooked mid-struggle, body twisting powerfully in deep water. Filtered light from above catches its scales. Motion blur shows resistance.",
+    "visual_tags": {
+      "lighting": "soft, natural, surface-filtered",
+      "color_palette": "dark blue, teal gradient, silver scales",
+      "camera_angle": "underwater close-up",
+      "depth_of_field": "shallow (blurred fins and tail)",
+      "mood": "visceral, intense, climactic",
+      "motion": "twisting fish, taut line, blur of movement",
+      "style": "cinematic wildlife realism, high-performance"
+    },
+    "characters": "fish"
+  },
+  {
+    "scene_label": "21:Victory in Hand",
+    "scene_timing": "Final celebration — resolution and reward",
+    "content_description": "Close-up of an angler holding a large, freshly caught fish on the deck of a boat. He smiles proudly with deep blue water and jungle coastline behind him.",
+    "visual_tags": {
+      "lighting": "natural midday sun, bold and clear",
+      "color_palette": "copper fish, deep blue ocean, green jungle, skin tones",
+      "camera_angle": "tight close-up, forward emphasis on fish",
+      "depth_of_field": "shallow (sharp on angler and fish, blurred background)",
+      "mood": "triumphant, emotional, personal",
+      "motion": "still, posed",
+      "style": "cinematic realism, saturated color, storytelling portrait"
+    },
+    "characters": "angler"
+  },
+  {
+    "scene_label": "22:Blade & Respect",
+    "scene_timing": "Post-catch — quiet craftsmanship moment",
+    "content_description": "Motion-blurred close-up of a hand slicing with a fillet knife on a cutting board. Background is neutral with soft ocean tones. Emphasis is on motion and respect for the process.",
+    "visual_tags": {
+      "lighting": "natural, subdued, cloudy",
+      "color_palette": "grey deck, ocean blue, metallic blade",
+      "camera_angle": "close-up, motion-focused",
+      "depth_of_field": "moderate (background blurred)",
+      "mood": "disciplined, respectful, tactile",
+      "motion": "hand in mid-cut, purposeful motion blur",
+      "style": "cinematic documentary, minimalist, transitional"
+    },
+    "characters": "angler hand"
+  },
+  {
+    "scene_label": "23:Every Detail Earned",
+    "scene_timing": "Closing signature — craftsmanship close-up",
+    "content_description": "Extreme macro of PENN Authority reel focusing on precision-machined gold-titanium detailing under spotlight. High contrast isolates craftsmanship in the dark.",
+    "visual_tags": {
+      "lighting": "moody, directional, high contrast spotlight",
+      "color_palette": "black, gold-titanium, soft steel highlights",
+      "camera_angle": "macro close-up, focused on spool detailing",
+      "depth_of_field": "very shallow",
+      "mood": "reverent, elite, industrial pride",
+      "motion": "none",
+      "style": "premium product hero, high-end industrial design"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "24:The Wake Left Behind",
+    "scene_timing": "Final shot — reflective closing image",
+    "content_description": "Trailing wide shot of a boat’s wake slicing diagonally through teal water. Horizon is silhouetted and distant. No boat visible — just the trace of its power.",
+    "visual_tags": {
+      "lighting": "soft, overcast",
+      "color_palette": "dark teal, white foam, gray sky",
+      "camera_angle": "low trailing shot, slightly tilted",
+      "depth_of_field": "deep (sharp wake, receding horizon)",
+      "mood": "reflective, poetic, earned calm",
+      "motion": "residual water motion",
+      "style": "cinematic minimalism, symbolic departure"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "25:The Look Back",
+    "scene_timing": "Reflective coda — calm close with human presence",
+    "content_description": "Cinematic wide shot of a fishing boat in distance with a blurred female angler in foreground, gazing toward the horizon. Sky is moody and ocean still.",
+    "visual_tags": {
+      "lighting": "gentle, natural, silvery reflections",
+      "color_palette": "dark green coastline, gray sky, muted water",
+      "camera_angle": "wide shot, foreground profile blurred",
+      "depth_of_field": "shallow foreground, deep horizon",
+      "mood": "contemplative, peaceful, grounded",
+      "motion": "slow cruising boat, faint wake",
+      "style": "elegant, cinematic coda, emotionally anchored"
+    },
+    "characters": "female angler (blurred foreground)"
+  },
+  {
+    "scene_label": "26:Surface Break",
+    "scene_timing": "Action climax — raw chaos and control",
+    "content_description": "Tight, high-energy shot of a large fish breaching the ocean’s surface. Taut fishing line is visible, water explodes in every direction with droplets caught in air.",
+    "visual_tags": {
+      "lighting": "dramatic, natural, silvery highlights",
+      "color_palette": "dark sea blue, white spray, silver tones",
+      "camera_angle": "low and tight to surface",
+      "depth_of_field": "moderate (sharp droplets, blurred fish)",
+      "mood": "chaotic, explosive, kinetic",
+      "motion": "breaching fish, taut line, airborne water",
+      "style": "cinematic climax, high-action, adrenaline-focused"
+    },
+    "characters": "fish"
+  },  
+  {
+    "scene_label": "27:Locked In",
+    "scene_timing": "Mid-action — tension and control",
+    "content_description": "Close-up of an angler’s hands gripping a PENN spinning reel mid-fight, muscles tensed. The reel glints in the sun as ocean blurs behind.",
+    "visual_tags": {
+      "lighting": "natural, directional, warm highlights and shadows",
+      "color_palette": "gold and black reel, ocean blue, skin tones",
+      "camera_angle": "tight close-up, gear and hands in frame",
+      "depth_of_field": "shallow (sharp focus on hands and reel)",
+      "mood": "controlled, intense, engaged",
+      "motion": "static tension",
+      "style": "cinematic realism, immersive focus"
+    },
+    "characters": "angler hands"
+  },
+  {
+    "scene_label": "28:Engineered Shadows",
+    "scene_timing": "Opening teaser or product outro — abstract reveal",
+    "content_description": "Low-key macro shot of PENN reel partially in shadow. Only edges and golden highlights are visible, evoking mystery and precision.",
+    "visual_tags": {
+      "lighting": "moody, directional, luxury-style",
+      "color_palette": "black background, golden highlights, minimal contrast",
+      "camera_angle": "macro, abstract silhouette framing",
+      "depth_of_field": "soft, partial focus",
+      "mood": "mysterious, confident, elegant",
+      "motion": "none",
+      "style": "luxury teaser, cinematic restraint"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "29:Through the Storm",
+    "scene_timing": "Mid-action beat – emotional pause or transitional moment",
+    "content_description": "Out-of-focus close-up of a female angler facing the rain. Vertical rain lines streak down as soft lighting defines her silhouette.",
+    "visual_tags": {
+      "lighting": "soft backlight, natural, overcast",
+      "color_palette": "gray rain, dark green backdrop, muted tones",
+      "camera_angle": "medium close-up, blurred focus",
+      "depth_of_field": "intentionally soft",
+      "mood": "introspective, resilient, atmospheric",
+      "motion": "gentle rain movement",
+      "style": "cinematic portrait, emotionally ambient"
+    },
+    "characters": "female angler"
+  },
+  {
+    "scene_label": "30:Below the Surface",
+    "scene_timing": "Opening or transitional sequence – sets mood and stakes",
+    "content_description": "Underwater shot with sunlight refracting through the surface. Particles glint in beams as the ocean floor recedes into shadow.",
+    "visual_tags": {
+      "lighting": "natural, refracted sunlight from above",
+      "color_palette": "teal, deep blue, silver particulate",
+      "camera_angle": "underwater wide shot, upward angle",
+      "depth_of_field": "deep (foreground particles, background fades)",
+      "mood": "mysterious, vast, immersive",
+      "motion": "slow drifting particulate",
+      "style": "cinematic ocean, atmospheric, high-resolution"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "31:Power Surge",
+    "scene_timing": "Mid-action—high tension moment in the water during a catch",
+    "content_description": "Underwater turbulence as a large fish thrashes near the surface. Bubbles and motion fill the frame under dramatic lighting.",
+    "visual_tags": {
+      "lighting": "natural, dramatic glow through turbulence",
+      "color_palette": "aqua blue, white bubbles, silver fish flash",
+      "camera_angle": "underwater close-up",
+      "depth_of_field": "moderate (chaotic blur and clarity mix)",
+      "mood": "explosive, primal, high-stakes",
+      "motion": "turbulent water, frothing bubbles, fish thrashing",
+      "style": "adrenaline-focused, cinematic chaos"
+    },
+    "characters": "fish"
+  },
+  {
+    "scene_label": "32:Engineered for the Elements",
+    "scene_timing": "Product hero moment, close-up after high-intensity action",
+    "content_description": "Close-up of PENN reel colliding with water mid-splash. High-contrast light reflects off black and copper housing. Water droplets hang mid-air.",
+    "visual_tags": {
+      "lighting": "bold, cinematic, high-contrast reflections",
+      "color_palette": "black, copper, white water droplets",
+      "camera_angle": "macro close-up, side angle",
+      "depth_of_field": "shallow (sharp reel, suspended droplets)",
+      "mood": "resilient, intense, premium",
+      "motion": "splash impact, mid-air droplets",
+      "style": "cinematic hero, waterproof showcase"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "33:Torque in Motion",
+    "scene_timing": "Mid-fight, action sequence showing the reel’s performance",
+    "content_description": "Close-up of reel mid-fight, with motion blur emphasizing torque. Angler’s hand grips firmly; background ocean is stormy.",
+    "visual_tags": {
+      "lighting": "moody, natural directional light",
+      "color_palette": "copper accents, stormy gray ocean, skin tones",
+      "camera_angle": "tight close-up, side angle",
+      "depth_of_field": "moderate (sharp reel, blurred background)",
+      "mood": "intense, powerful, kinetic",
+      "motion": "line tension, torque, hand strain",
+      "style": "cinematic realism, mid-action hero"
+    },
+    "characters": "angler hand"
+  },  
+  {
+    "scene_label": "34:The Breakthrough",
+    "scene_timing": "Climax of the battle – fish breaches the water",
+    "content_description": "A marlin bursts from the ocean surface mid-leap, muscles arced and water spraying in all directions. It’s the apex of power and resistance.",
+    "visual_tags": {
+      "lighting": "natural, overcast, moody",
+      "color_palette": "deep blue ocean, silver-blue fish, white spray",
+      "camera_angle": "mid-range, dynamic upward angle",
+      "depth_of_field": "moderate (sharp fish, blurred splash edges)",
+      "mood": "explosive, triumphant, high-stakes",
+      "motion": "leaping marlin, splashing water",
+      "style": "cinematic climax, action wildlife"
+    },
+    "characters": "fish (marlin)"
+  },
+  {
+    "scene_label": "35:Untamed Waters",
+    "scene_timing": "Establishing shot – location reveal",
+    "content_description": "Aerial shot of tropical coastline, mountains, and jungle. A fishing boat cuts a white wake toward a secluded cove under filtered sunlight.",
+    "visual_tags": {
+      "lighting": "natural, soft sunbeams through clouds",
+      "color_palette": "emerald green, turquoise water, white wake",
+      "camera_angle": "aerial wide shot",
+      "depth_of_field": "deep",
+      "mood": "serene, anticipatory, remote",
+      "motion": "boat movement",
+      "style": "cinematic landscape, establishing adventure"
+    },
+    "characters": "boat"
+  },
+  {
+    "scene_label": "36:Nature in Motion",
+    "scene_timing": "Early sequence – ambient rhythm of the wild",
+    "content_description": "Macro shot of leafcutter ants on a forest root, each carrying leaf fragments. Background bokeh creates a humid, alive jungle scene.",
+    "visual_tags": {
+      "lighting": "natural dappled light, soft highlights",
+      "color_palette": "earth tones, greens, brown textures",
+      "camera_angle": "macro close-up, ground level",
+      "depth_of_field": "very shallow (sharp ants, blurred backdrop)",
+      "mood": "focused, natural, primal",
+      "motion": "ants crawling in sync",
+      "style": "documentary macro, symbolic realism"
+    },
+    "characters": "leafcutter ants"
+  },
+  {
+    "scene_label": "37:The Pulse of the Sea",
+    "scene_timing": "Transition moment – momentum builds",
+    "content_description": "Abstract close-up of a swirling school of fish forming a vortex. Motion blur and light glints create a pulsing, rhythmic visual.",
+    "visual_tags": {
+      "lighting": "subtle underwater light, reflective shimmer",
+      "color_palette": "turquoise, silver-blue, teal shadows",
+      "camera_angle": "underwater macro-wide blend",
+      "depth_of_field": "soft, layered motion blur",
+      "mood": "fluid, vibrant, energetic",
+      "motion": "continuous swirling motion",
+      "style": "abstract cinematic, rhythmic energy"
+    },
+    "characters": "school of fish"
+  },
+  {
+    "scene_label": "38:The Edge of Control",
+    "scene_timing": "Pivotal beat — technical mastery meets raw force",
+    "content_description": "Close-up of an angler’s hand on a black reel handle with gold accents. Overlay reads 'FISH WITH PRECISION' as mist and spray subtly glint in the light.",
+    "visual_tags": {
+      "lighting": "moody, directional, soft contrast",
+      "color_palette": "black, gold, gray mist, white text overlay",
+      "camera_angle": "tight product-focused angle",
+      "depth_of_field": "shallow (sharp reel, soft background)",
+      "mood": "confident, tactical, elite",
+      "motion": "light mist movement",
+      "style": "branded cinematic product hero"
+    },
+    "characters": "angler hand"
+  },
+  {
+    "scene_label": "39:Power & Precision",
+    "scene_timing": "Mid-action beat — the angler is fully engaged, gear in hand, ready to strike.",
+    "content_description": "Tight close-up of an angler gripping a high-performance reel, mid-cast. The aqua-blue shirt and dark moody background highlight product texture and drama.",
+    "visual_tags": {
+      "lighting": "soft natural, high shutter clarity",
+      "color_palette": "deep blacks, aqua-blue, warm metal",
+      "camera_angle": "tight side angle",
+      "depth_of_field": "shallow (sharp hand and gear, blurred background)",
+      "mood": "focused, bold, refined",
+      "motion": "implied cast movement, suspended droplets",
+      "style": "luxury gear shot, slow-motion inspired"
+    },
+    "characters": "angler (partial)"
+  },
+  {
+    "scene_label": "40:Grounded Moment",
+    "scene_timing": "Transitional beat — a grounding pause between action sequences.",
+    "content_description": "Blurry close-up of a hand pressing into damp, dark sand. Camera is behind and above the hand, creating an introspective, tactile perspective.",
+    "visual_tags": {
+      "lighting": "subdued, moody, green cast",
+      "color_palette": "dark earth, moist sand, muted natural tones",
+      "camera_angle": "first-person close-up",
+      "depth_of_field": "soft focus, abstract",
+      "mood": "introspective, raw, grounded",
+      "motion": "light hand pressure, subtle movement",
+      "style": "handheld realism, dreamlike texture"
+    },
+    "characters": "angler hand"
+  },
+  {
+    "scene_label": "41:Into the Wild",
+    "scene_timing": "Early sequence — the journey to the fishing destination begins.",
+    "content_description": "Wide shot of two anglers trekking through dense jungle, mid-stride. Sunbeams cut through foliage, lighting pockets of their forest path.",
+    "visual_tags": {
+      "lighting": "natural beams through canopy, warm highlights",
+      "color_palette": "earth browns, rich greens, golden sunlight",
+      "camera_angle": "behind medium-wide tracking shot",
+      "depth_of_field": "deep (sharp figures, detailed terrain)",
+      "mood": "adventurous, immersive, purposeful",
+      "motion": "mid-stride hiking motion",
+      "style": "cinematic documentary, natural exploration"
+    },
+    "characters": "two anglers"
+  },
+  {
+    "scene_label": "42:First Cast",
+    "scene_timing": "Initiation moment — the beginning of action at the water.",
+    "content_description": "Wide shot of an angler mid-cast beside a misty forest river. The figure is partially obscured by fog, the line arcing through soft morning light.",
+    "visual_tags": {
+      "lighting": "diffused morning light, mist glow",
+      "color_palette": "grays, desaturated green, soft aquas",
+      "camera_angle": "low wide shot through fog",
+      "depth_of_field": "medium (soft foreground fog, moderate subject focus)",
+      "mood": "serene, anticipatory, sacred",
+      "motion": "casting motion, flexed rod, flying line",
+      "style": "contemplative cinematic, nature-connected"
+    },
+    "characters": "angler"
+  },  
+  {
+    "scene_label": "43:The Focused Angler",
+    "scene_timing": "Character beat — establishes connection, determination, and brand identity.",
+    "content_description": "Close-up portrait of a fisherwoman in seafoam green fishing gear, framed by dappled sunlight and a blurred forest. Her calm, focused gaze meets the camera.",
+    "visual_tags": {
+      "lighting": "natural, directional dappled light",
+      "color_palette": "earthy greens, tans, warm skin tones",
+      "camera_angle": "cinematic close-up",
+      "depth_of_field": "shallow (sharp face, blurred background)",
+      "mood": "calm, resolute, focused",
+      "motion": "still",
+      "style": "contemplative, bold portrait, authentic realism"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "44:Moment of Tension",
+    "scene_timing": "Mid-action beat — a calm before the strike, building suspense.",
+    "content_description": "Close-up of a bent fishing rod tip against a moody ocean horizon. Taut line, wet guides, and a dark carbon finish build quiet suspense.",
+    "visual_tags": {
+      "lighting": "diffuse, ambient, overcast",
+      "color_palette": "grays, blues, carbon black",
+      "camera_angle": "tight close-up silhouette",
+      "depth_of_field": "shallow (sharp rod, soft sea)",
+      "mood": "tense, anticipatory, isolated",
+      "motion": "subtle rod bend",
+      "style": "cinematic suspense, hyperreal slow motion"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "45:The Face of the Brand",
+    "scene_timing": "Opening scene — establishing authenticity and confidence.",
+    "content_description": "Close-up of a confident female angler in teal hat and PENN gear. Sunlight filters through the forest canopy, creating golden bokeh and soft shadow on her face.",
+    "visual_tags": {
+      "lighting": "natural, warm, sun-dappled",
+      "color_palette": "forest green, gold, teal, warm skin tones",
+      "camera_angle": "portrait close-up",
+      "depth_of_field": "shallow (sharp face, soft background)",
+      "mood": "confident, grounded, authentic",
+      "motion": "still",
+      "style": "cinematic handheld, golden hour documentary"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "46:Hooked in the Fight",
+    "scene_timing": "Mid-action beat — tension and power in the heart of the battle.",
+    "content_description": "Over-the-shoulder shot of a fisherwoman gripping a bending rod, ocean chaos and stormy sky behind. Tension in her hands and rod leads into the water.",
+    "visual_tags": {
+      "lighting": "high-contrast, diffused sunlight",
+      "color_palette": "copper-black reel, blue-gray ocean, warm highlights",
+      "camera_angle": "over-the-shoulder close-up",
+      "depth_of_field": "shallow (sharp rod, soft background)",
+      "mood": "intense, unrelenting, immersive",
+      "motion": "dynamic rod tension, motion blur",
+      "style": "gritty cinematic action, handheld realism"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "47:Victory in Hand",
+    "scene_timing": "Closing frame — the triumphant payoff moment of the commercial.",
+    "content_description": "Fisherwoman on a boat holds a massive Cubera Snapper, smiling widely. Jungle coast and bright ocean sparkle under soft overcast light.",
+    "visual_tags": {
+      "lighting": "natural, soft, overcast cinematic",
+      "color_palette": "teal, copper, green jungle, warm skin tones",
+      "camera_angle": "frontal mid-shot",
+      "depth_of_field": "shallow (sharp on subject and fish)",
+      "mood": "proud, triumphant, vivid",
+      "motion": "still, composed",
+      "style": "cinematic lifestyle, teal-orange color grade"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "48:The Trophy Lift",
+    "scene_timing": "Climactic mid-to-end commercial beat — a hero shot that solidifies the brand's promise.",
+    "content_description": "Hero shot of a female angler lifting a massive snapper. Warm fish colors pop against deep blue sea and blurred green coastline.",
+    "visual_tags": {
+      "lighting": "coastal overcast, directional and soft",
+      "color_palette": "bronze-red fish, blue sea, seafoam green, skin tones",
+      "camera_angle": "frontal hero close-up",
+      "depth_of_field": "shallow (sharp fish, soft background)",
+      "mood": "strong, satisfied, high-impact",
+      "motion": "posed lift",
+      "style": "cinematic, premium lifestyle advertising"
+    },
+    "characters": "fisherwoman"
+  },
+  {
+    "scene_label": "49:Dialed In",
+    "scene_timing": "Mid-action beat — builds tension and intimacy with the gear in use.",
+    "content_description": "Close-up of strong hands mid-retrieve on a PENN reel. Metallic bronze and dark braided line glisten under gray light, ocean blurred behind.",
+    "visual_tags": {
+      "lighting": "soft, overcast, diffused",
+      "color_palette": "black, bronze, gray ocean",
+      "camera_angle": "tight macro close-up",
+      "depth_of_field": "shallow (sharp on reel and hands)",
+      "mood": "intense, precise, focused",
+      "motion": "subtle hand and line tension",
+      "style": "cinematic macro, performance-focused"
+    },
+    "characters": "angler hands"
+  },
+  {
+    "scene_label": "50:Breaking the Surface",
+    "scene_timing": "Climactic mid-action moment — the height of the struggle and adrenaline.",
+    "content_description": "A game fish explodes through the surface, water bursting upward in a chaotic splash. The fish is sleek, muscular, and caught mid-breach in frozen droplets.",
+    "visual_tags": {
+      "lighting": "moody, cinematic, cool-toned",
+      "color_palette": "dark ocean blue, silver, white splash",
+      "camera_angle": "tight upward mid-shot",
+      "depth_of_field": "shallow (sharp fish, blurred droplets)",
+      "mood": "explosive, raw, cinematic adrenaline",
+      "motion": "violent splash, mid-air breach",
+      "style": "ultra slow motion, dramatic action hero"
+    },
+    "characters": "fish"
+  },  
+  {
+    "scene_label": "51:Fish with Authority",
+    "scene_timing": "Closing frame — tagline delivery with powerful visual impact.",
+    "content_description": "Silhouetted angler at the bow of a boat facing a stormy seascape. Heavy skies and ambient backlight create a dramatic tone. Bold text 'FISH WITH AUTHORITY' overlays with motion blur on 'AUTHORITY'.",
+    "visual_tags": {
+      "lighting": "minimal, natural, ambient backlight",
+      "color_palette": "blue-grey, black silhouette, white text",
+      "camera_angle": "rear mid-shot, low angle",
+      "depth_of_field": "moderate (sharp silhouette, soft background)",
+      "mood": "serious, solitary, powerful",
+      "motion": "still figure, motion blur on text",
+      "style": "cinematic branding frame, high-performance visual"
+    },
+    "characters": "angler (silhouetted)"
+  },
+  {
+    "scene_label": "52:Product Power Close",
+    "scene_timing": "Final branding frame — hero product reveal and tagline lock-up.",
+    "content_description": "High-contrast close-up of Penn spinning reel submerged in water, surrounded by droplets and reflections. Bold text overlays 'FISH WITH AUTHORITY'.",
+    "visual_tags": {
+      "lighting": "stylized, directional highlights",
+      "color_palette": "matte black, copper, gold, white text",
+      "camera_angle": "macro close-up, flat angle",
+      "depth_of_field": "shallow (sharp reel, black background)",
+      "mood": "bold, elite, powerful",
+      "motion": "still, subtle water droplet suspension",
+      "style": "luxury product ad, minimalist hero shot"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "53:Final Impact Frame",
+    "scene_timing": "Closing shot — the final visual stamp of the commercial.",
+    "content_description": "Macro of wet spinning reel with CNC details and droplets mid-motion. Bold centered text 'FISH WITH AUTHORITY' in white all-caps over black background.",
+    "visual_tags": {
+      "lighting": "cinematic, stylized, sharp directional",
+      "color_palette": "black, copper, blue highlights, white text",
+      "camera_angle": "tight macro shot, side-lit",
+      "depth_of_field": "shallow (sharp detail, soft edges)",
+      "mood": "intense, engineered, premium",
+      "motion": "blurred droplets suggest impact",
+      "style": "luxury tech branding, slow-motion aesthetic"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "54:Canopy Reverie",
+    "scene_timing": "Opening scene — a breath-before-the-action establishing shot.",
+    "content_description": "Upward view from forest floor of tropical canopy with warm sunlight beams filtering through. Leaves in soft focus, light dreamy and poetic.",
+    "visual_tags": {
+      "lighting": "filtered sunbeams, hazy warm",
+      "color_palette": "rich greens, gold highlights, dark silhouettes",
+      "camera_angle": "low upward angle",
+      "depth_of_field": "shallow (sharp rays, soft foliage edges)",
+      "mood": "serene, immersive, anticipatory",
+      "motion": "gentle lens flare and implied breeze",
+      "style": "atmospheric, poetic nature cinematic"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "55:Into the Wild",
+    "scene_timing": "Opening scene — atmospheric tone-setter before revealing the anglers or gear.",
+    "content_description": "Upward shot through dense jungle canopy at golden hour. Sunlight streams through thick foliage, forming patterns of light and shadow.",
+    "visual_tags": {
+      "lighting": "dappled, warm golden hour",
+      "color_palette": "greens, golden whites, black tree silhouettes",
+      "camera_angle": "low static wide angle",
+      "depth_of_field": "moderate (contrast-focused composition)",
+      "mood": "still, reverent, raw",
+      "motion": "none",
+      "style": "cinematic intro, rich tone mapping, ambient"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "56:Canopy Awakening",
+    "scene_timing": "Opening scene — atmospheric continuation, bridging into motion or human presence.",
+    "content_description": "Upward view through jungle canopy with beams of light streaking through. Slight motion blur suggests wind or camera movement.",
+    "visual_tags": {
+      "lighting": "golden rim light, ambient filtered rays",
+      "color_palette": "deep greens, golden undertones, black edges",
+      "camera_angle": "looking straight up",
+      "depth_of_field": "shallow (soft leaf detail, light play)",
+      "mood": "serene, immersive, awakening",
+      "motion": "light movement or pan implied",
+      "style": "forest cinematic, natural light, slow build"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "57:Victory Grip",
+    "scene_timing": "Mid-action beat — emotional payoff following the tension of the catch.",
+    "content_description": "Waist-up shot of an angler gripping a large silver jack. Focus is on fish and hands, background sea softly blurred under cool light.",
+    "visual_tags": {
+      "lighting": "soft daylight, slightly overcast",
+      "color_palette": "silver fish, aqua shirt, steel blue water",
+      "camera_angle": "mid-close-up, centered framing",
+      "depth_of_field": "shallow (sharp fish, blurred face and sea)",
+      "mood": "earned, strong, cinematic payoff",
+      "motion": "still pose, slight fish tension",
+      "style": "realistic, hero moment, lifestyle ad"
+    },
+    "characters": "angler (face cropped)"
+  },  
+  {
+    "scene_label": "58:The Release",
+    "scene_timing": "Mid-action beat — emotional resolution and respect for the catch.",
+    "content_description": "Motion-blurred shot of a silver jack being released into the ocean. The fish arcs downward mid-air, hands open beside it. Water below is textured and dark under overcast light.",
+    "visual_tags": {
+      "lighting": "cinematic, overcast, soft daylight",
+      "color_palette": "silver fish, teal/navy water, aqua blue shirt",
+      "camera_angle": "mid-frame, side perspective",
+      "depth_of_field": "shallow (sharp fish, soft water texture)",
+      "mood": "reverent, calm, resolved",
+      "motion": "falling fish, open hands",
+      "style": "high-speed documentary, commercial polish"
+    },
+    "characters": "angler hands"
+  },
+  {
+    "scene_label": "59:Precision Engineering",
+    "scene_timing": "Opening scene — establishing the product and brand identity with high-end visual impact.",
+    "content_description": "Macro of spinning reel engraved with 'AUTHORITY' featuring bronze and black detailing. Water droplets hover, lighting is moody and detailed.",
+    "visual_tags": {
+      "lighting": "low-key, dramatic contrast",
+      "color_palette": "metallic bronze, matte black, chrome",
+      "camera_angle": "tight macro product shot",
+      "depth_of_field": "shallow (sharp on branding and reflections)",
+      "mood": "serious, premium, engineered",
+      "motion": "hovering droplets, implied stillness",
+      "style": "luxury gear ad, slow-motion tone"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "60:Built for Battle",
+    "scene_timing": "Mid-action beat — showcasing the product’s durability and precision under intense conditions.",
+    "content_description": "Close-up of spinning reel mid-spin, labeled 'AUTHORITY', surrounded by droplets in black void. Copper and gold glints catch harsh backlight.",
+    "visual_tags": {
+      "lighting": "crisp cinematic backlight",
+      "color_palette": "graphite, copper, gold, black",
+      "camera_angle": "macro close-up, side angle",
+      "depth_of_field": "shallow (sharp on branding and spin blur)",
+      "mood": "resilient, bold, high-performance",
+      "motion": "spinning reel, suspended droplets",
+      "style": "hyper-detailed studio hero"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "61:The Depth Below",
+    "scene_timing": "Transition shot — a visceral, immersive beat that bridges action from above water to underwater intensity.",
+    "content_description": "Close-up of bubbles underwater, softly lit in teal-blue. Particles shimmer in slow motion, receding into blur in the aquatic background.",
+    "visual_tags": {
+      "lighting": "diffused, soft, ambient underwater",
+      "color_palette": "deep teal, blue, white shimmer",
+      "camera_angle": "underwater macro, straight-on",
+      "depth_of_field": "shallow (sharp foreground bubbles)",
+      "mood": "immersive, quiet, surreal",
+      "motion": "slow motion floating bubbles",
+      "style": "cinematic underwater, meditative tone"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "62:Forged in Firelight",
+    "scene_timing": "Closing frame — an emotional, branding-focused beat that emphasizes craftsmanship, power, and premium design.",
+    "content_description": "Macro of high-end reel lit with warm amber glow. Brushed metal and engraved text catch low, forge-like light. Background fades into darkness.",
+    "visual_tags": {
+      "lighting": "low, dramatic amber glow",
+      "color_palette": "metallic gray, amber, black",
+      "camera_angle": "macro product hero",
+      "depth_of_field": "shallow (sharp on metal textures)",
+      "mood": "powerful, crafted, warm",
+      "motion": "none",
+      "style": "premium cinematic, forge-inspired"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "63:The Authority",
+    "scene_timing": "Final title card — the closing signature moment of the ad, delivering the product name with full visual weight and brand impact.",
+    "content_description": "Reel on a glass platform with droplets and black/gold accents. Clean studio lighting highlights polish and texture. Bold text 'THE AUTHORITY' overlays center.",
+    "visual_tags": {
+      "lighting": "precision-lit, high contrast",
+      "color_palette": "black, gold, chrome, white text",
+      "camera_angle": "product frontal close-up",
+      "depth_of_field": "shallow (sharp reel, dark background)",
+      "mood": "confident, bold, minimalist",
+      "motion": "still",
+      "style": "studio brand lockup, premium final frame"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "64:The Authority (Final Lockup)",
+    "scene_timing": "Definitive closing frame — the product reveal and brand name lockup that punctuates the entire campaign.",
+    "content_description": "Studio shot of a wet Penn Authority reel with black and orange accents on a glass surface. White text 'THE AUTHORITY' centered over frame.",
+    "visual_tags": {
+      "lighting": "bright, focused key light",
+      "color_palette": "matte black, burnt orange, glossy water",
+      "camera_angle": "angled studio product shot",
+      "depth_of_field": "shallow (sharp on reel, blurred glass edges)",
+      "mood": "rugged, precise, professional",
+      "motion": "none",
+      "style": "final branding lock-up, high-end product ad"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "65:Let the Battle Begin",
+    "scene_timing": "Closing frame — a dramatic call to action, inviting the viewer into the Penn experience.",
+    "content_description": "Diagonal close-up of a reel on a glass platform, covered in droplets. High-contrast studio lighting reveals metal contours. Bold white text: 'LET THE BATTLE BEGIN'.",
+    "visual_tags": {
+      "lighting": "high contrast, cinematic spotlight",
+      "color_palette": "black, burnt orange, white text",
+      "camera_angle": "angled macro close-up",
+      "depth_of_field": "shallow (emphasis on reel form)",
+      "mood": "intense, cinematic, dramatic",
+      "motion": "none",
+      "style": "premium campaign CTA, dark luxury"
+    },
+    "characters": "none"
+  },
+  {
+    "scene_label": "66:Penn Signature Lock-Up",
+    "scene_timing": "Final brand reveal — definitive closing frame of the commercial.",
+    "content_description": "Reel rests diagonally on glass platform with droplets. High-contrast lighting reveals orange and black finish. PENN logo floats crisply above reel on black background.",
+    "visual_tags": {
+      "lighting": "focused, high-contrast, product hero light",
+      "color_palette": "metallic black, burnt orange, red/white/blue logo",
+      "camera_angle": "angled close-up with logo overlay",
+      "depth_of_field": "shallow (sharp reel and logo)",
+      "mood": "bold, final, signature",
+      "motion": "none",
+      "style": "cinematic brand stamp, luxury finish"
+    },
+    "characters": "none"
+  }  
+]
+  
