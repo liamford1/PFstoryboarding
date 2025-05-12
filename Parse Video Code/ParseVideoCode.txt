@@ -1,0 +1,9 @@
+brew install ffmpeg
+
+
+
+ffmpeg -i ~/Downloads/Purefishing/frames/GX010099.MP4 -vf fps=1 ~/Downloads/Purefishing/frames/output_%04d.png
+                            ^                                                   ^
+                            |                                                   |
+             //Route to video on your pc//                               //Route to output//
+                 This grabs the video from a file and inputs the images into the same file
