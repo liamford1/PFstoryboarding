@@ -4,9 +4,9 @@ import base64
 import json
 from tqdm import tqdm
 
-# ========== CONFIG =========="
+# ========== CONFIG ==========
 openai.api_key = "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"
-input_dir = "../data/penn/lowpro3"  # One folder = one video
+input_dir = "../data/penn/lowpro1"  # One folder = one video
 output_jsonl = "penn_storyboard_dataset.jsonl"
 
 # Structured, brand-specific system prompt
@@ -69,25 +69,46 @@ def generate_frame_description(base64_image):
             fields["brand_style"] = line.replace("7. Brand Style:", "").strip()
     return fields
 
-# ========== MAIN SCRIPT ==========
+def load_jsonl(path):
+    data = []
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            for line in f:
+                try:
+                    data.append(json.loads(line))
+                except Exception:
+                    pass
+    return data
 
-def process_video_folder_to_jsonl(folder_path, output_path):
-    frames = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
-    with open(output_path, "a") as f:
-        for i, filename in enumerate(tqdm(frames), start=1):
-            filepath = os.path.join(folder_path, filename)
+def save_jsonl(path, data):
+    with open(path, "w") as f:
+        for item in data:
+            f.write(json.dumps(item) + "\n")
+
+# ========== MAIN EXECUTION ==========
+
+if __name__ == "__main__":
+    existing_data = load_jsonl(output_jsonl)
+    updated_data = []
+
+    frames = sorted([f for f in os.listdir(input_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
+
+    for i, filename in enumerate(tqdm(frames), start=1):
+        existing_entry = next((x for x in existing_data if x.get("frame_number") == i), None)
+
+        # Only regenerate if missing or incomplete
+        if not existing_entry or "scene_label" not in existing_entry:
+            print(f"Updating frame {i}: {filename}")
+            filepath = os.path.join(input_dir, filename)
             img_base64 = encode_image_base64(filepath)
             try:
                 details = generate_frame_description(img_base64)
-                frame_data = {
-                    "frame_number": i,
-                    **details
-                }
-                f.write(json.dumps(frame_data) + "\n")
+                updated_data.append({"frame_number": i, **details})
             except Exception as e:
                 print(f"Error processing frame {i} ({filename}): {e}")
+                updated_data.append({"frame_number": i})  # retain placeholder if fail
+        else:
+            updated_data.append(existing_entry)
 
-# ========== RUN ==========
-
-if __name__ == "__main__":
-    process_video_folder_to_jsonl(input_dir, output_jsonl)
+    # Save updated data back to the same file
+    save_jsonl(output_jsonl, updated_data)
