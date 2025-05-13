@@ -1,7 +1,7 @@
 import os
 
 # ========== CONFIG ==========
-folder_path = "../data/penn/battle3"  # ← replace this with the path to your image folder
+folder_path = "../data/penn/slammer"  # ← replace this with the path to your image folder
 file_prefix = "frame_"                # Or change to "image_" or "shot_", etc.
 file_extension = ".jpg"              # Change to ".png" or ".jpeg" if needed
 zero_padding = 4                     # 0001, 0002, etc.

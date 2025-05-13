@@ -6,10 +6,8 @@ from tqdm import tqdm
 
 # ========== CONFIG =========="
 openai.api_key = "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"
-input_dir = "../data/penn/battle3"  # One folder = one video
+input_dir = "../data/penn/clash2"  # One folder = one video
 output_jsonl = "penn_storyboard_dataset.jsonl"
-USE_OPENAI = True
-MAX_RETRIES = 3
 
 # Structured, brand-specific system prompt
 SYSTEM_PROMPT = (
@@ -34,17 +32,6 @@ def encode_image_base64(image_path):
         return base64.b64encode(img_file.read()).decode('utf-8')
 
 def generate_frame_description(base64_image):
-    if not USE_OPENAI:
-        return {
-            "scene_label": "Test Frame",
-            "scene_timing": "Test Timing – placeholder",
-            "visual_prompt": "This is a test visual description meant to simulate output.",
-            "camera_angle": "Eye-level wide shot",
-            "lighting": "Natural light, medium contrast, cool tone",
-            "mood": "cinematic, calm",
-            "brand_style": "PENN – cinematic realism with rugged performance tone"
-        }
-
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
@@ -60,8 +47,9 @@ def generate_frame_description(base64_image):
         ],
         max_tokens=1000
     )
-
     content = response.choices[0].message.content.strip()
+
+    # Parse the response into structured fields
     lines = content.split("\n")
     fields = {}
     for line in lines:
@@ -81,73 +69,25 @@ def generate_frame_description(base64_image):
             fields["brand_style"] = line.replace("7. Brand Style:", "").strip()
     return fields
 
-def process_video_folder_to_jsonl(folder_path, output_path, max_retries=3):
-    frames = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
-    retry_log = []
+# ========== MAIN SCRIPT ==========
 
+def process_video_folder_to_jsonl(folder_path, output_path):
+    frames = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
     with open(output_path, "a") as f:
         for i, filename in enumerate(tqdm(frames), start=1):
             filepath = os.path.join(folder_path, filename)
             img_base64 = encode_image_base64(filepath)
-
-            success = False
-            for attempt in range(1, max_retries + 1):
-                try:
-                    details = generate_frame_description(img_base64)
-                    required_fields = [
-                        "scene_label", "scene_timing", "visual_prompt",
-                        "camera_angle", "lighting", "mood", "brand_style"
-                    ]
-                    if all(field in details and details[field] for field in required_fields):
-                        frame_data = {
-                            "frame_number": i,
-                            **details
-                        }
-                        f.write(json.dumps(frame_data) + "\n")
-                        success = True
-                        break
-                    else:
-                        print(f"Frame {i} attempt {attempt}: Incomplete response")
-                except Exception as e:
-                    print(f"Frame {i} attempt {attempt} error: {e}")
-
-            if not success:
-                retry_log.append((i, filename))
-
-    if retry_log:
-        with open("retry_list.txt", "w") as retry_file:
-            for frame_number, fname in retry_log:
-                retry_file.write(f"{frame_number},{fname}\n")
-        print(f"\n⚠️ {len(retry_log)} frames failed after {max_retries} retries. See retry_list.txt.")
-
-def retry_failed_frames(folder_path, retry_list_path, output_path):
-    with open(retry_list_path, "r") as file:
-        lines = file.readlines()
-
-    with open(output_path, "a") as f:
-        for line in tqdm(lines):
-            frame_number, filename = line.strip().split(",")
-            filepath = os.path.join(folder_path, filename)
-            img_base64 = encode_image_base64(filepath)
-
             try:
                 details = generate_frame_description(img_base64)
-                required_fields = [
-                    "scene_label", "scene_timing", "visual_prompt",
-                    "camera_angle", "lighting", "mood", "brand_style"
-                ]
-                if all(field in details and details[field] for field in required_fields):
-                    frame_data = {
-                        "frame_number": int(frame_number),
-                        **details
-                    }
-                    f.write(json.dumps(frame_data) + "\n")
-                else:
-                    print(f"Retry frame {frame_number}: Incomplete")
+                frame_data = {
+                    "frame_number": i,
+                    **details
+                }
+                f.write(json.dumps(frame_data) + "\n")
             except Exception as e:
-                print(f"Retry frame {frame_number} error: {e}")
+                print(f"Error processing frame {i} ({filename}): {e}")
 
 # ========== RUN ==========
 
 if __name__ == "__main__":
-    process_video_folder_to_jsonl(input_dir, output_jsonl, MAX_RETRIES)
+    process_video_folder_to_jsonl(input_dir, output_jsonl)
