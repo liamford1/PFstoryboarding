@@ -1,0 +1,1 @@
+break down video into 1 sec frames: mkdir -p ~/Downloads/penn_slammer4 && ffmpeg -i ~/Downloads/videoplayback.mp4 -vf fps=1 ~/Downloads/penn_slammer4/frame_%04d.jpg
