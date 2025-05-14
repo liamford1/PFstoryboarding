@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 # ========== CONFIG ==========
 openai.api_key = "***REMOVED***"
-input_dir = "../data/penn/lowpro1"  # One folder = one video
-output_jsonl = "penn_storyboard_dataset.jsonl"
+input_dir = "../data/penn/inshore"  # One folder = one video
+output_jsonl = "data.jsonl"
 
 # Structured, brand-specific system prompt
 SYSTEM_PROMPT = (
