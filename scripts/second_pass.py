@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 # ========== CONFIG ==========
 openai.api_key = "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"
-input_dir = "../data/penn/lowpro1"  # One folder = one video
-output_jsonl = "penn_storyboard_dataset.jsonl"
+input_dir = "../data/penn/inshore"  # One folder = one video
+output_jsonl = "data.jsonl"
 
 # Structured, brand-specific system prompt
 SYSTEM_PROMPT = (
