@@ -5,9 +5,9 @@ import json
 from tqdm import tqdm
 
 # ========== CONFIG ==========
-openai.api_key = "***REMOVED***"
-input_dir = "../data/penn/slammer"  # One folder = one video
-output_jsonl = "data.jsonl"
+openai.api_key = ""
+input_dir = "../data/penn/lowpro1"  # One folder = one video
+output_jsonl = "../penn_descriptions/lowpro1.jsonl"
 
 # Structured, brand-specific system prompt
 SYSTEM_PROMPT = (
