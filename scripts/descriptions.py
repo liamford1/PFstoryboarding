@@ -5,7 +5,7 @@ import json
 from tqdm import tqdm
 
 # ========== CONFIG =========="
-openai.api_key = "***REMOVED***"
+openai.api_key = ""
 input_dir = "../data/penn/slammer"  # One folder = one video
 output_jsonl = "penn_storyboard_dataset.jsonl"
 
