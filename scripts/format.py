@@ -1,14 +1,15 @@
 import os
 import json
-import openai
-from tqdm import tqdm
 import time
+from tqdm import tqdm
+from openai import OpenAI
 
 # === CONFIG ===
-openai.api_key = "your-api-key"
-root_folder = "../data/penn/descriptions"  # Folder with video folders (e.g. 'battle3', each with descriptions.jsonl)
+client = OpenAI(api_key="")
+
+root_folder = "../data/penn/descriptions"  # folder containing .jsonl files
 output_file = "final_training_dataset.jsonl"
-dry_run = True  # Set to False to make actual OpenAI calls
+dry_run = False  # Set to True to test without using the API
 
 # === Format structured completion text ===
 def format_completion(entry):
@@ -44,7 +45,7 @@ def generate_user_prompt(completion_text):
     )
 
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -52,7 +53,7 @@ def generate_user_prompt(completion_text):
             ],
             temperature=0.7
         )
-        return response.choices[0].message['content'].strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"OpenAI API error: {e}")
         return None
@@ -85,4 +86,3 @@ with open(output_file, "w") as out_f:
                 except Exception as e:
                     print(f"Error in {video_id}: {e}")
                     continue
-
