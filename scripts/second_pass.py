@@ -5,9 +5,9 @@ import json
 from tqdm import tqdm
 
 # ========== CONFIG ==========
-openai.api_key = ""
-input_dir = "../data/penn/clash2.1"  # One folder = one video
-output_jsonl = "../penn_descriptions/clash2.1.jsonl"
+openai.api_key = "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"
+input_dir = "../data/penn/silver_king"  # One folder = one video
+output_jsonl = "../penn_descriptions/silver_king.jsonl"
 
 # Structured, brand-specific system prompt
 SYSTEM_PROMPT = (
