@@ -1,10 +1,10 @@
 import json
 
 # === CONFIG ===
-input_file = "../penn_descriptions/slammer.jsonl"  # Change this to your target file path
+input_file = "2.jsonl"  # Change this to your target file path
 brand = "PENN"
 video_style = "Cinematic product advertisement"
-video_title = "PENN Slammer IV"
+video_title = "PENN Authority"
 
 # === PROCESS FILE ===
 updated_lines = []
