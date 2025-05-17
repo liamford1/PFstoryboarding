@@ -1,16 +1,17 @@
 import os
 import json
-import openai
-from tqdm import tqdm
 import time
+from tqdm import tqdm
+from openai import OpenAI
 
 # === CONFIG ===
-openai.api_key = "your-api-key"
-root_folder = "data/penn"  # Contains folders like 'battle3', 'clash2.1', each with descriptions.jsonl
-output_file = "final_training_dataset.jsonl"
-dry_run = True  # Set to False to enable actual OpenAI API usage
+client = OpenAI(api_key="")
 
-# === Format the structured completion from description entry ===
+root_folder = "../data/penn/descriptions"  # folder containing .jsonl files
+output_file = "final_training_dataset.jsonl"
+dry_run = False  # Set to True to test without using the API
+
+# === Format structured completion text ===
 def format_completion(entry):
     return (
         f"Scene Label: {entry['scene_label']}\n"
@@ -19,13 +20,16 @@ def format_completion(entry):
         f"Camera Angle: {entry['camera_angle']}\n"
         f"Lighting: {entry['lighting']}\n"
         f"Mood: {entry['mood']}\n"
-        f"Brand Style: {entry['brand_style']}"
+        f"Brand Style: {entry['brand_style']}\n"
+        f"Brand: {entry['brand']}\n"
+        f"Video Style: {entry['video_style']}\n"
+        f"Video Title: {entry['video_title']}"
     )
 
-# === Generate user-style prompt from full scene description ===
+# === Generate user-style prompt from structured description ===
 def generate_user_prompt(completion_text):
     if dry_run:
-        return f"[FAKE USER PROMPT based on: {completion_text[:60]}...]"
+        return f"[FAKE PROMPT based on: {completion_text[:60]}...]"
 
     system_prompt = (
         "You are a creative user writing prompts for a cinematic product storyboard generator "
@@ -41,7 +45,7 @@ def generate_user_prompt(completion_text):
     )
 
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -49,27 +53,23 @@ def generate_user_prompt(completion_text):
             ],
             temperature=0.7
         )
-        return response.choices[0].message['content'].strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"OpenAI API error: {e}")
         return None
 
-# === Process all description files ===
+# === Main processing loop ===
 with open(output_file, "w") as out_f:
-    for subfolder in os.listdir(root_folder):
-        sub_path = os.path.join(root_folder, subfolder)
-        if not os.path.isdir(sub_path):
+    for filename in os.listdir(root_folder):
+        if not filename.endswith(".jsonl"):
             continue
+        file_path = os.path.join(root_folder, filename)
 
-        desc_file_path = os.path.join(sub_path, "descriptions.jsonl")
-        if not os.path.exists(desc_file_path):
-            print(f"Skipping {subfolder}: no descriptions.jsonl found")
-            continue
+        video_id = filename.replace(".jsonl", "")
+        print(f"Processing {video_id}...")
 
-        print(f"Processing {subfolder}...")
-
-        with open(desc_file_path, "r") as desc_file:
-            for line in tqdm(desc_file, desc=f"{subfolder}"):
+        with open(file_path, "r") as desc_file:
+            for line in tqdm(desc_file, desc=video_id):
                 try:
                     entry = json.loads(line)
                     completion = format_completion(entry)
@@ -82,7 +82,7 @@ with open(output_file, "w") as out_f:
                     }
                     out_f.write(json.dumps(pair) + "\n")
                     if not dry_run:
-                        time.sleep(0.5)  # Friendly delay to avoid rate limits
+                        time.sleep(0.5)
                 except Exception as e:
-                    print(f"Error in {subfolder}: {e}")
+                    print(f"Error in {video_id}: {e}")
                     continue
